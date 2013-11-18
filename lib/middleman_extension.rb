@@ -1,1 +1,1 @@
-require "middleman-api"
+require "middleman-sitemap-api"

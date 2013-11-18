@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "middleman-api/version"
+require "middleman-sitemap-api/version"
 
 Gem::Specification.new do |s|
-  s.name        = "middleman-api"
-  s.version     = Middleman::API::VERSION
+  s.name        = "middleman-sitemap-api"
+  s.version     = Middleman::SitemapAPI::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Thomas Reynolds"]
   s.email       = ["me@tdreyno.com"]
-  s.homepage    = "https://github.com/middleman/middleman-api"
+  s.homepage    = "https://github.com/middleman/middleman-sitemap-api"
   s.summary     = %q{Middleman Resource API}
   s.description = %q{Middleman Resource API}
 
-  s.rubyforge_project = "middleman-api"
+  s.rubyforge_project = "middleman-sitemap-api"
   s.required_ruby_version = ">= 1.9.3"
 
   s.files         = `git ls-files -z`.split("\0")

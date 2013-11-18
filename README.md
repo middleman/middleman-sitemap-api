@@ -1,21 +1,21 @@
-# middleman-api
+# middleman-sitemap-api
 
-middleman-api is an extension for the [Middleman](http://middlemanapp.com) static site generator that adds a RESTful API to Middleman's Sitemap Resources.
+middleman-sitemap-api is an extension for the [Middleman](http://middlemanapp.com) static site generator that adds a RESTful API to Middleman's Sitemap Resources.
 
 # Install
 
 In an existing Middleman project:
-Add `middleman-api` to your `Gemfile`
+Add `middleman-sitemap-api` to your `Gemfile`
 
 ```
-gem "middleman-api"
+gem "middleman-sitemap-api"
 ```
 
 Then open your `config.rb` and add:
 
 ```
 # MUST BE LAST ACTIVATION IN CONFIG!!! 
-activate :api
+activate :sitemap_api
 ```
 
 # **!!!MUST BE ACTIVATED LAST!!!**
@@ -34,8 +34,8 @@ activate :api
 
 ## Build Status
 
-[![Gem Version](https://badge.fury.io/rb/middleman-api.png)](https://rubygems.org/gems/middleman-api)
-[![Build Status](https://travis-ci.org/middleman/middleman-api.png)](http://travis-ci.org/middleman/middleman-api)
+[![Gem Version](https://badge.fury.io/rb/middleman-sitemap-api.png)](https://rubygems.org/gems/middleman-sitemap-api)
+[![Build Status](https://travis-ci.org/middleman/middleman-sitemap-api.png)](http://travis-ci.org/middleman/middleman-sitemap-api)
 
 # Community
 
@@ -47,7 +47,7 @@ The official community forum is available at:
 
 GitHub Issues are used for managing bug reports and feature requests. If you run into issues, please search the issues and submit new problems:
 
-https://github.com/middleman/middleman-api/issues
+https://github.com/middleman/middleman-sitemap-api/issues
 
 The best way to get quick responses to your issues and swift fixes to your bugs is to submit detailed bug reports, include test cases and respond to developer questions in a timely manner. Even better, if you know Ruby, you can submit Pull Requests containing Cucumber Features which describe how your feature should work or exploit the bug you are submitting.
 

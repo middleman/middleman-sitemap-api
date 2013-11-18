@@ -2,7 +2,7 @@ require 'grape'
 require 'pathname'
 
 module Middleman
-  class APIExtension < ::Middleman::Extension
+  class SitemapAPIExtension < ::Middleman::Extension
     option :at, '/__api', 'Specify where the API should live'
     option :build, true, 'Whether the API is built to static files'
     option :source_file, false, 'Lookup resources by source file'
@@ -22,7 +22,7 @@ module Middleman
       app.use SelfReferential, app: app, options: options
 
       app.map options[:at] do
-        run ::Middleman::APIExtension::API
+        run ::Middleman::SitemapAPIExtension::API
       end
 
       app.logger.info "== API mounted at #{options[:at]}"
